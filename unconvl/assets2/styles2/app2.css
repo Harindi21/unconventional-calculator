@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Roboto', open-sans;
+  }
+
+  body {
+    margin: 0;
+  } 
+  
+  /*by this we can remove the margins set by browsers*/
+
+  header {
+        background: #023d6d;
+        color: white;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  }
+
+  /*used to define a container for introductory or 
+  navigational content at the top of a document or a 
+  section. It typically contains elements such as headings, 
+  logos, navigation menus, and other elements that provide context 
+  or navigation options for the content on the page */
+
+  #calculator, #ans{
+   border: 1px solid #023d6d;
+   /* text-align: center; */
+   margin: 2rem auto;
+   /* margin to auto, means that the browser will automatically calculate and distribute the available space equally between the left and right margins. This is often used to horizontally center an element within its parent container. */
+   border-radius: 10px;
+   padding: 1rem;
+   max-width: 90%;
+   /* it means that the element should not exceed a width of 90% of the width of its containing or parent element. for responsiveness */
+   width: 40rem;
+   color: #023d6d;
+  }
+
+  #ans{
+    text-align: center;
+  }
+
+  #inputno{
+    border: 2px solid #023d6d;
+    font: inherit;
+    font-size: 3rem;
+    width: 10rem;
+    margin:auto;
+    display:block;
+    color: #023d6d;
+    text-align: center;
+  }
+
+  #calculator input:focus {
+    outline: none;
+  }
+
+  #calculator button:hover,
+  #calculator button:active {
+    background: #084f88;
+    border-color: #084f88;
+  }
+
+  #buttons button{
+   
+    color:white;
+    
+    background:#023d6d;
+    font:inherit;
+    padding: 1rem;
+    border: 1px solid #023d6d;
+    cursor: pointer;
+    /*cursor point is a finger*/
+  }
+
+  #buttons{
+    margin-top: 1rem;
+    text-align:center;
+  }
+
